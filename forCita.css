@@ -1,0 +1,142 @@
+body {
+  
+  background-image: url(../scr/fondoL.jpg);
+  background-repeat:initial;
+  background-size:cover;
+  font-family: 'Montserrat', sans-serif;
+
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+ 
+}
+
+header{
+  background-color: rgb(172, 242, 189);
+  padding: 0 0 ;
+}
+
+
+.encabezado{
+  width: 1890px;
+  position: relative;
+  margin: 0 auto; /* BORDES  */
+
+}
+
+.encabezado h2{
+  
+  left: 25%;
+  display: flex;
+  justify-content:center;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 52px; 
+  color: #98ffdb;
+  letter-spacing: 2px;    
+  text-shadow:1px 2px 0px #000, -1px -1px 0px #000, 1px -1px 0px #000, -1px 1px 0px #000;
+  top: 62px;
+
+}
+
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(to right ,rgb(60, 179, 113),rgb(0, 204, 153));
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form button {
+    margin-top: 25px;
+    margin-bottom: 6px;
+    border-radius: 10px;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 19px;
+    font-weight: bold;
+    color: grey;
+  }
+  
+  .form label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .form button:hover {
+    box-shadow: 2px 2px 12px white;
+  }
+  
+  .input {
+    height: 30px;
+    outline: none;
+    
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 2px 2px 12px inset black;
+    background: linear-gradient(to right ,rgb(102, 255, 153),rgb(0, 255, 204));
+
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .span:hover {
+    font-weight: bold;
+  }
+  
+  .color {
+    color: white;
+  }
+  
+  .align {
+    text-align: center;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9becbd;
+    color: #49d32d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4be7da; /* Cambia el color del botón al hacer hover */
+  }
+  
