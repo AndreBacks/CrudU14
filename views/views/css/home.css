@@ -1,0 +1,131 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: aliceblue;
+    padding: 20px 0 ;
+}
+
+
+.encabezado{
+    width: 1890px;
+    position: relative;
+    margin: 0 auto; /* BORDES  */
+
+}
+
+nav{
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+nav li{
+    display: inline; /* PARA QUE LA LISTA NO OCUPE TODO SI NO UNA LINEA */
+    margin: 0 0 0 15px;
+}
+
+
+nav a{
+    text-transform: uppercase;  /* Transforma la letra a MAYÚSCULA*/
+    color:black;
+    font-weight: bold; /* Letra Negrita*/
+    font-size: 25px;
+    text-decoration: none; /*Formato de los enlaces */
+}
+
+
+nav a:hover{ /* cuando el usuario pasa el cursor se resalta de un color */ 
+    color :rgb(33, 123, 201);
+    text-decoration: underline ; /*  subrayado al movimiento*/
+}
+
+.formularios{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;  /* Espaciamiento Interno */
+
+}
+
+.formularios li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #CCCCCC;
+    margin: 0 1.5%;  /* Espaciamiento Externo */
+    padding: 30px 20px;  /* Espaciamiento Interno */
+    box-sizing: border-box; /* Los valores de  cada elemento no sobre pase el otro*/
+    border-color: black;  /* Color del borde */
+    border-width: 4px;  /* ancho y tamaño  del borde   */
+    border-style: dashed;  /* -solid =linea solida -dashed= linea punteada -dotted =linea de punticos   */
+    /*border: 2px solid #000 */ /* SIRVE PARA DISMINUIR LAS LINEAS DE CÓDIGO*/;
+    border-radius: 20px; /* Hacer los bordes curvos */
+}
+
+.formularios li:hover{ /* capturar el movimiento del Mouse */
+    color:rgb(104, 243, 243) ;
+    border-color: rgb(33, 160, 188);
+}
+
+.formularios li:active{ /* cambia el color al click  */
+    color:rgb(0, 11, 128) ;
+    border-color: rgb(19, 117, 197);
+}
+
+.formularios h2{
+    font-size: 30px ;
+    font-weight: bold;
+    
+}
+
+.formularios li:hover h2{
+    font-size: 33px;
+}
+
+.imgDoctor{
+    width: 200px;
+    height: auto;
+}
+
+.imgpat{
+    width: 200px;
+    height: auto;
+}
+
+.imgCm{
+    width: 185px;
+    height: auto;
+}
+
+
+
+
+.final{
+    width: 1860px;
+    position: relative;
+    margin: 0 auto; /* BORDES  */
+    height: 80px;
+    background-color: rgb(19, 117, 197);
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+
+
+.copyright{
+    color: whitesmoke;
+    transform: translateX(30%);
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+
+
+
