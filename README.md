@@ -29,7 +29,8 @@ Un aplicativo web (REST API)  que por medio de formularios reciba la informació
 ![image](https://github.com/AndreBacks/CrudU14/assets/131099065/0c333f9f-dbac-4635-acc0-84d7af0a87e8)
 
 /**Citas**/
-![image](https://github.com/AndreBacks/CrudU14/assets/131099065/6853fef4-e073-4c11-92b7-f158ad05e8f1)
+![image](https://github.com/AndreBacks/CrudU14/assets/131099065/56a1e41c-4994-470b-9ceb-05fffe88e070)
+
 
 
 Repositorio
