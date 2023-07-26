@@ -42,33 +42,33 @@
 
          <!--Nombre-->   
         <label for="pacientenombre" >
-            <input placeholder="" type="text" class="input"  id="nombre" name="nombre" required>
+            <input placeholder="" type="text" class="input"  id="nombre" name="nombre" required pattern="[A-Za-z]+" title="Ingrese solo letras">
             <span>Nombre</span>
         </label>
      
 
           <!--numero cédula-->
           <label for="pacientecedula">
-            <input placeholder="" type="text" class="input" id="ncedula" name="ncedula" required>
+            <input placeholder="" type="text" class="input" id="ncedula" name="ncedula"  required pattern="\d{10}" title="Ingrese un número de cédula válido (10 dígitos numéricos)">
             <span>Numero Cédula</span>
         </label>
         
         <!--apellido-->
         <label for="pacienteapellido">
-            <input  placeholder="" type="text" class="input"  id="apellido" name="apellido" required>
+            <input  placeholder="" type="text" class="input"  id="apellido" name="apellido"  required pattern="[A-Za-z]+" title="Ingrese solo letras">
             <span>Apellido</span>
         </label>
 
   
         <!--Edad-->   
         <label for="consultorio">
-            <input  placeholder="" type="number" class="input" id="edad" name="edad"  min="1" max="123" required>
+            <input  placeholder="" type="number" class="input" id="edad" name="edad"  required pattern="^(?:[1-9][0-9]?|1[01][0-9]|120)$" title="Ingrese una edad válida (entre 1 y 120 años)">
             <span>Edad</span>
         </label>
    
     <!--Telefono-->   
     <label  for="email">
-        <input  placeholder="" type="tel" class="input" id="telefono" name="telefono" required>
+        <input  placeholder="" type="number" class="input" id="telefono" name="telefono" required pattern="^(?:[0-9]\x20?){6,14}[0-9]$" title="Ingrese un número de teléfono válido en formato local. Ejemplo: 123 4567890">
         <span>Telefono</span>
     </label>
 

@@ -29,67 +29,61 @@
         
         
 <!--*************************************************************************************************************************************-->    
-     <!--PRIMER FORMULARIO PACIENTES -->
+     <!--PRIMER FORMULARIO Doctores -->
 <main style="
     width: 1000px;
     height: 800px;
 ">     
     <section id="primer">
-        <form action="/salvarP" method="POST" class="form" id="formulario" >
+        <form action="/salvardoctor" method="POST" class="form" id="formulario" >
             <p class="title">Registro Doctor</p>
             <p class="message">Complete los campos requeridos </p>
         
 
-     <!--Nombre-->   
-     <label for="doctornombre" >
-        <input placeholder="" type="text" class="input"  id="nombre" required>
-        <span>Nombre</span>
-    </label>
- 
-    
-    <!--apellido-->
-    <label for="doctorLastName">
-        <input  placeholder="" type="text" class="input"  id="apellido" required>
-        <span>apellido</span>
-    </label>
-    
-    <!--numero cédula-->
-    <label for="doctorcedula">
-        <input placeholder="" type="text" class="input" id="cedula" required>
-        <span>Numero Cédula</span>
-    </label>
+         <!--Nombre-->   
+        <label for="pacientenombre" >
+            <input placeholder="" type="text" class="input"  id="nombres" name="nombres" required pattern="[A-Za-z]+" title="Ingrese solo letras">
+            <span>Nombre</span>
+        </label>
+        
+        <!--apellido-->
+        <label for="pacienteapellido">
+            <input  placeholder="" type="text" class="input"  id="apellidos" name="apellidos"  required pattern="[A-Za-z]+" title="Ingrese solo letras">
+            <span>Apellido</span>
+        </label>
 
-  
-<!--LISTA DESPLEGABLE ESPECIALIDAD-->
+           
+    <!--LISTA DESPLEGABLE ESPECIALIDAD-->
+    
+    <label id="esp"  for="doctorSpeciality">Especialidad:</label>
+    <select title="especiality" id="especialidad" name="especialidad" required>
+       
+      <option value="">Seleccione una especialidad requerida</option>  
+      <option value="Medicina general">Medicina general</option>
+      <option value="Cardiología">Cardiología</option>
+      <option value="Medicina interna">Medicina interna</option>
+      <option value="Dermatología">Dermatología</option>
+      <option value="Rehabilitación física">Rehabilitación física</option>
+      <option value="Psicología">Psicología</option>
+      <option value="Odontología">Odontología</option>
+      <option value="Radiología">Radiología</option>
+    </select>
 
-<label id="esp"  for="doctorSpeciality">Especialidad:</label>
-<select title="especiality" id="especialidad" required>
+    <!--Consultorio-->   
+    <label for="consultorio">
+        <input  placeholder="" type="text" class="input" id="consultorio" name="consultorio" required>
+        <span>Consultorio</span>
+    </label>
    
-  <option value="">Seleccione una especialidad requerida</option>  
-  <option value="Medicina general">Medicina general</option>
-  <option value="Cardiología">Cardiología</option>
-  <option value="Medicina interna">Medicina interna</option>
-  <option value="Dermatología">Dermatología</option>
-  <option value="Rehabilitación física">Rehabilitación física</option>
-  <option value="Psicología">Psicología</option>
-  <option value="Odontología">Odontología</option>
-  <option value="Radiología">Radiología</option>
-</select>
+    <!--Correo Electrónico-->   
+    <label  for="email">
+        <input  placeholder="" type="text" class="input" id="correo" name="correo" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Ingrese una dirección de correo electrónico válida">
+        <span>Correo Electrónico</span>
+    </label>
 
-<!--Consultorio-->   
-<label for="consultorio">
-    <input  placeholder="" type="text" class="input" id="consultorio" required>
-    <span>Consultorio</span>
-</label>
-
-<!--Correo Electrónico-->   
-<label  for="email">
-    <input  placeholder="" type="text" class="input" id="email" required>
-    <span>Correo Electrónico</span>
-</label>
 
 <!--BOTONES-->
-    <button class="btn btn-primary mt-2" type="submit">Guardar Doctor</button>
+    <button class="btn btn-primary mt-2" type="submit">Guardar Paciente</button>
     <a href="/" class="btn btn-secondary">Cancelar</a>
     <button class="buttonD" type="button" onclick="reiniciarFormulario()">Reiniciar</button>
 
@@ -125,3 +119,5 @@
 <!-- <script src="pagina.js"></script> -->
 
 </html>
+
+
