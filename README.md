@@ -5,16 +5,19 @@
 ![image](https://github.com/AndreBacks/CrudU14/assets/131099065/eee1c34f-5e7d-4ef1-b01e-255f179be3ad)
 
 **lista Doctores**
-![image](https://github.com/AndreBacks/CrudU14/assets/131099065/00bb7401-25d4-4899-bd6b-80cbb995986b)
+![image](https://github.com/AndreBacks/CrudU14/assets/131099065/f0835071-6c4e-4594-bcc8-4bf0e01bd055)
+
 
 **Lista pacientes**
-![image](https://github.com/AndreBacks/CrudU14/assets/131099065/641661df-4eff-409c-ab37-f36ed4235231)
+![image](https://github.com/AndreBacks/CrudU14/assets/131099065/f59ef5c3-b0c7-4688-8bae-448315eb6e12)
+
 
 **Editar**
-![image](https://github.com/AndreBacks/CrudU14/assets/131099065/fb191e8b-a549-41f5-a60d-c2cb59f42126)
+![image](https://github.com/AndreBacks/CrudU14/assets/131099065/67b1422b-93e6-4610-88aa-6e506c52540b)
+
 
 **Registro**
-![image](https://github.com/AndreBacks/CrudU14/assets/131099065/57716d11-e63a-4f4a-b4b8-db35d7a178a8)
+![image](https://github.com/AndreBacks/CrudU14/assets/131099065/0c333f9f-dbac-4635-acc0-84d7af0a87e8)
 
 /**Citas**/
 ![image](https://github.com/AndreBacks/CrudU14/assets/131099065/6853fef4-e073-4c11-92b7-f158ad05e8f1)
