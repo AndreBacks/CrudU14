@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas Medicas</title>
+    <link rel="shortcut icon" href="./scr/icono.png" type="img-pagina" />
+    <link rel="stylesheet" href="../css/forCita.css">
+    
+</head>
+<body>
+
+  
+    <header class="caja1">
+        <div class="caja">
+            <img src="../scr/u-distrital.png" class="universidad" alt="Logo ud">
+            <h2 class="edititle">Asignacion de Citas medicas</h2>
+            
+        </div>
+    </header>
+
+    
+    <form class="form">
+        <div class="flex">
+          <div class="login color">Complete los siguientes campos para asignarle su cita medica</div>
+          <br>
+          <label class="color">Numero de cedula :</label>
+          <input type="text" id="cedula" name="cedula" class="input" required>
+
+          
+          <h4>Seleccione su especialidad:</h4>
+          <form>
+              <label for="especialidad">Especialidad:</label>
+              <select id="especialidad" name="especialidad">
+                  <option value="medicina_general">Medicina General</option>
+                  <option value="cardiologia">Cardiología</option>
+                  <option value="medicina_interna">Medicina Interna</option>
+                  <option value="dermatologia">Dermatología</option>
+                  <option value="rehabilitacion_fisica">Rehabilitación Física</option>
+                  <option value="psicologia">Psicología</option>
+                  <option value="odontologia">Odontología</option>
+                  <option value="radiologia">Radiología</option>
+              </select>
+          </form>
+
+
+          <button class="">Enviar</button>
+        </div>
+    </form>
+
+
+</body>
+</html>
