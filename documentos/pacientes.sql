@@ -1,7 +1,7 @@
 CREATE TABLE doctores (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  nombre VARCHAR(255) NOT NULL,
-  apellido VARCHAR(255) NOT NULL,
+  nombres VARCHAR(255) NOT NULL,
+  apellidos VARCHAR(255) NOT NULL,
   especialidad VARCHAR(255) NOT NULL,
   consultorio VARCHAR(255) NOT NULL,
   correo VARCHAR(255) NOT NULL
