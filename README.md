@@ -5,8 +5,10 @@
 **DESCRIPCION**
 
 
-Aplicando lo visto en el curso hasta el momento realizar la siguiente práctica
-Realizar un aplicativo web (REST API)  que por medio de formularios reciba la información de pacientes y doctores, los almacenen en una base de datos y luego con DOM los muestre en una página.
+Aplicando lo visto en el curso 
+
+
+Un aplicativo web (REST API)  que por medio de formularios reciba la información de pacientes y doctores, los almacenen en una base de datos y luego con DOM los muestre en una página.
 
 **Pagina Principal**
 ![image](https://github.com/AndreBacks/CrudU14/assets/131099065/eee1c34f-5e7d-4ef1-b01e-255f179be3ad)
