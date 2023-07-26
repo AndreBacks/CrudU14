@@ -1,9 +1,11 @@
 # CrudU14
 *EJERCICIO DE LA UNIDAD 14*
+
+
 **DESCRIPCION**
-Aplicando lo visto en el curso hasta el momento realizar la siguiente práctica.
 
 
+Aplicando lo visto en el curso hasta el momento realizar la siguiente práctica
 Realizar un aplicativo web (REST API)  que por medio de formularios reciba la información de pacientes y doctores, los almacenen en una base de datos y luego con DOM los muestre en una página.
 
 **Pagina Principal**
