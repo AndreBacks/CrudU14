@@ -74,6 +74,8 @@ exports.consultaruno = (req,res) => {
     })
 }
 
+
+
 //ACTUALIZAR pacientes
 exports.actualizar = (req,res) => {
     const id = req.body.id
@@ -248,26 +250,30 @@ exports.consultardoct = (req,res) => {
             return
         }
         //res.send(consulta)
-        res.render('editD',{pacientes:consulta[0]})
+        res.render('editD',{doctores:consulta[0]})
     })
 }
 
+
+
+
+
 //ACTUALIZAR doctores
-exports.actualizardocto = (req,res) => {
+exports.actualizardocto = (req, res) => {
     const id = req.body.id
     const nombres = req.body.nombres
     const apellidos = req.body.apellidos
     const especialidad = req.body.especialidad
     const consultorio = req.body.consultorio
-    const correo= req.body.correo
+    const correo = req.body.correo
     
-    var comando = "update doctores set nombres='" + nombres + "', apellidos=" + apellidos;
-    comando += ", especialidad='" + especialidad + "', consultorio=" + consultorio + ", correo=" + correo;
+    var comando = "update doctores set nombres='" + nombres + "', apellidos='" + apellidos + "'";
+    comando += ", especialidad='" + especialidad + "', consultorio=" + consultorio + ", correo='" + correo + "'";
     comando += " WHERE id=" + id;
 
     console.log(comando)
     conexion.query(comando, (error, resultado) => {
-        if(error){
+        if (error) {
             console.log(error)
             return
         } else {
@@ -290,3 +296,7 @@ exports.deletedoc = (req,res) => {
         }
     })
 }
+
+
+
+
